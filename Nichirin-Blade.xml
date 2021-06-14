@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Ancestral Katana</name>
+		<description></description>
+		<author url="Anime in DnD">Blaine Simple</author>
+		<update version="0.0.1">
+			<file name="Magic-weapon" url="" />
+		</update>
+	</info>
+	<element name="Nichirin Blade" type="Magic Weapon" source="Anime in DnD" id="ID_HOMEBREW_DMG_MAGIC_WEAPON_1">
+		<description>
+			<p>Nichirin Blades are specialty weapons forgedfor Demon Slayers. A unique ore is used to form the blade which possesses fragmented pieces of the sun. Nichirin Blades are only as strong as their wielder, and will change color once an owner has gained adequate skill.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="any">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+	</element>
+</elements>
