@@ -5,7 +5,7 @@
 		<description></description>
 		<author url="Anime in DnD">Blaine Simple</author>
 		<update version="0.0.1">
-			<file name="Magic-weapon" url="" />
+			<file name="Magic-weapon" url="https://github.com/iamgranty33/Magic-weapon/blob/main/Nichirin-Blade.xml" />
 		</update>
 	</info>
 	<element name="Nichirin Blade" type="Magic Weapon" source="Anime in DnD" id="ID_HOMEBREW_DMG_MAGIC_WEAPON_1">
